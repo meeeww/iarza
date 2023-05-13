@@ -4,19 +4,24 @@
 @tailwind utilities;
 
 
-:root{
+:root {
     --colorPrincipal: #95c125;
     --colorGris: #63686d;
+    --colorBlanco: #ffffff;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+.headerMain a {
     margin-inline: 1rem;
 }
 
-h2{
+.headerMain i {
+    margin-inline: 0.5rem;
+}
+
+.headerMain h2{
     margin-inline: 1rem;
 }
