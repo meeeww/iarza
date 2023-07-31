@@ -12,6 +12,10 @@ function Footer() {
                     href: '/contacto',
                     name: 'Contacto'
                 },
+                {
+                    href: '/otrosservicios',
+                    name: 'Otros Servicios'
+                },
             ],
         },
         {
@@ -28,10 +32,6 @@ function Footer() {
                 {
                     href: '/proyectos',
                     name: 'Proyectos'
-                },
-                {
-                    href: '/otrosservicios',
-                    name: 'Otros Servicios'
                 },
             ]
         },
