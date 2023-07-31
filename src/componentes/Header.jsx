@@ -12,10 +12,10 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const products = [
-    { name: 'Subvenciones', description: 'Consulta la información sobre nuestros métodos de transporte.', href: '/transporte', icon: BanknotesIcon },
-    { name: 'Asesoría', description: 'Échale un vistazo a nuestra flota de transporte.', href: '/flota', icon: DocumentTextIcon },
-    { name: 'Proyectos', description: 'Cuidamos nuestra calidad y queremos demostrarlo.', href: '/calidad', icon: CubeTransparentIcon },
-    { name: 'Otros Servicios', description: 'Cuidamos nuestra calidad y queremos demostrarlo.', href: '/calidad', icon: BriefcaseIcon },
+    { name: 'Subvenciones', description: 'Garantizamos la obtención de la mayor rentabilidad a las inversiones.', href: '/transporte', icon: BanknotesIcon },
+    { name: 'Asesoría', description: 'Estudio integral, personalizado y detallado de la explotación.', href: '/flota', icon: DocumentTextIcon },
+    { name: 'Proyectos', description: 'Ponemos a tu disposición nuestra amplia experiencia de más de 20 años', href: '/calidad', icon: CubeTransparentIcon },
+    { name: 'Otros Servicios', description: 'Aunamos experiencia y conocimientos para ayudar a cumplir con las obligaciones fiscales y laborales.', href: '/calidad', icon: BriefcaseIcon },
 ]
 
 function classNames(...classes) {
