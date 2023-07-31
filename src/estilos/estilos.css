@@ -3,11 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
     --colorPrincipal: #95c125;
-    --colorGris: #63686d;
+    --colorSecundario: #f78f9e;
+    --colorGris: #2b2a29;
     --colorBlanco: #ffffff;
+}
+
+a{
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -22,6 +26,41 @@ body {
     margin-inline: 0.5rem;
 }
 
-.headerMain h2{
+.headerMain h2 {
     margin-inline: 1rem;
+}
+
+.transiciones {
+    transition: all 0.5s;
+}
+
+.transiciones:hover {
+    transition: all 0.5s;
+}
+
+.transicionColor {
+    color: var(--colorBlanco);
+    transition: all 0.25s;
+}
+
+.transicionColor:hover {
+    color: var(--colorPrincipal);
+    transition: all 0.25s;
+}
+
+.transicionColorMovil {
+    color: var(--colorGris);
+    transition: all 0.25s;
+}
+
+.transicionColorMovil:focus {
+    color: var(--colorPrincipal);
+    background: none;
+    transition: all 0.25s;
+}
+
+.transicionColorMovil:active {
+    color: var(--colorPrincipal);
+    background: none;
+    transition: all 0.25s;
 }

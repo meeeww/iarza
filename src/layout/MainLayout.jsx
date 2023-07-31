@@ -1,12 +1,12 @@
 import Header from '../componentes/Header'
-// import Footer from '../componentes/Footer'
+import Footer from '../componentes/Footer'
 
 function MainLayout({children}) {
     return (
         <>
-            <Header></Header>
+            <Header />
             <div>{children}</div>
-            {/* <Footer></Footer> */}
+            <Footer />
         </>
     )
 }
