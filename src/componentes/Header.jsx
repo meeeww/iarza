@@ -28,7 +28,7 @@ function Header() {
 
     return (
         <header className="bg-[color:var(--colorGris)]">
-            <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <nav className="mx-auto flex max-w-[110rem] items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     {/* <div className="flex flex-col items-center justify-center font-medium text-[color:var(--colorBlanco)] pr-5">
                         <h1 className="text-l">Grupo Transportes</h1>
