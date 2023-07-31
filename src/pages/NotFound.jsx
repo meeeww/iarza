@@ -24,9 +24,6 @@ function NotFound() {
               >
                 Volver al Inicio
               </a>
-              <a href="/contacto" className="text-sm font-semibold leading-6 text-[color:var(--colorGris)] hover:scale-105 transiciones">
-                Contáctanos
-              </a>
             </div>
           </div>
         </div>
