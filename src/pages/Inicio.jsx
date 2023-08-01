@@ -46,7 +46,7 @@ function Inicio() {
                   {features.map((feature) => (
                     <div key={feature.name} className="relative sm:my-0 mt-4">
                       <dt className="inline font-semibold text-[color:var(--colorBlanco)] pl-6">
-                        <a href={"/" + (feature.name).slice(0, -1)} className="hover:text-[var(--colorPrincipal)] transiciones">
+                        <a href={"/" + (feature.name.charAt(0).toLowerCase()) + (feature.name).slice(0, -1).normalize("NFD").replace(/[\u0300-\u036f]/g, "").slice(1)} className="hover:text-[var(--colorPrincipal)] transiciones">
                           <feature.icon className="absolute left-0 h-5 w-5 top-1 text-[var(--colorPrincipal)]" />
                           {feature.name}
                         </a></dt>{' '}

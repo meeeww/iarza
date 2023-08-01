@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 import Inicio from './pages/Inicio.jsx'
 import Subvenciones from './pages/Subvenciones.jsx';
+import Asesoria from './pages/Asesoria.jsx'
 import Contacto from './pages/Contacto.jsx';
 
 import NotFound from './pages/NotFound.jsx';
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/subvenciones",
     element: <Subvenciones />,
+  },
+  {
+    path: "/asesoria",
+    element: <Asesoria />,
   },
   {
     path: "/contacto",
