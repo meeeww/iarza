@@ -3,43 +3,37 @@ import Breadcrumb from '../componentes/Breadcrumb'
 
 import Visitanos from "../componentes/Visitanos";
 
-import {
-    DocumentTextIcon,
-    CubeTransparentIcon,
-    BriefcaseIcon
-} from '@heroicons/react/20/solid'
-
 const features = [
     {
         name: 'Pac Europea.',
         description:
             'Las ayudas de la Unión Europea en la actualidad son una importante fuente de ingresos para las explotaciones agrícolas y ganaderas, por lo que es muy importante una óptima gestión de las mismas. Te asesoramos para que obtengas la máxima rentabilidad a tus ayudas comunitarias: Solicitud Unificada, gestión de la Reserva Nacional para jóvenes agricultores...',
-        icon: DocumentTextIcon,
+        icon: "euro-sign",
     },
     {
         name: 'Agroindustria.',
         description: 'Ponemos a tu disposición nuestra amplia experiencia en la realización de proyectos agroindustriales (tratamiento y envasado de leche y productos lácteos, queserías, plantas de tratamiento y envasado de miel, castañas, setas, patatas, salas de despiece, venta directa...) para darle la mejor solución a tu proyecto. Estamos especializados en la elaboración de APPC y en el análisis de puntos críticos.',
-        icon: CubeTransparentIcon,
+        icon: "industry",
     },
     {
         name: 'Planes de Mejora.',
         description: 'Ayuda autonómica anual destinada a la modernización y mejora de las explotaciones existentes. Las ayudas de la Unión Europea en la actualidad son una importante fuente de ingresos para las explotaciones agrícolas y ganaderas, por lo que es muy importante una óptima gestión de las mismas.',
-        icon: BriefcaseIcon,
+        icon: "chalkboard-user",
     },
     {
         name: 'Incorporación de Jóvenes Agricultores.',
         description: 'Para mejorar los resultados económicos de las explotaciones agrarias y facilitar su modernización, estas subvenciones están destinadas a la reestructuración de las explotaciones agrarias facilitando la incorporación de nuevo personal. Destinadas al relevo generacional de las actividades existentes o a la creación de novas empresas agrarias.',
-        icon: BriefcaseIcon,
+        icon: "person",
     },
     {
         name: 'Ayudas GDR para Innovadores.',
         description: 'Con el objetivo de apoyar iniciativas surgidas en el sector agroalimentario y dar oportunidades en diversificación de las producciones y suministro, se destinan subvenciones para ayudar a tu empresa. Contacta con nosotros y te asesoraremos sobre la mejor manera de llevar a cabo tu proyecto en materia de innovación.',
-        icon: BriefcaseIcon,
+        icon: "mobile-screen-button",
     },
     {
         name: 'Plan Renove.',
         description: 'Tramitación de ayudas destinadas a la renovación de maquinaria agrícola de las explotaciones agrícolas y ganaderas, mediante la adquisición de maquinaria nueva y desguace de maquinaria obsoleta y con deficiencias de seguridad.',
-        icon: BriefcaseIcon,
+        icon: "tractor",
     },
 ]
 
@@ -59,8 +53,8 @@ function Subvenciones() {
                                 <dl className="mt-10 text-base leading-7 text-[color:var(--colorBlanco)] lg:max-w-none sm:grid grid-cols-3 gap-8">
                                     {features.map((feature) => (
                                         <div key={feature.name} className="relative sm:my-0 mt-4">
-                                            <dt className="inline font-semibold text-[color:var(--colorBlanco)] pl-6">
-                                                <feature.icon className="absolute left-0 h-5 w-5 top-1 text-[var(--colorPrincipal)]" />
+                                            <dt className="inline font-semibold text-[color:var(--colorBlanco)] pl-7">
+                                                <i className={"text-center absolute left-0 h-5 w-5 top-1 text-[var(--colorPrincipal)] fa-solid fa-" + feature.icon} />
                                                 {feature.name}
                                             </dt>{' '}
                                             <dd className="inline">{feature.description}</dd>
