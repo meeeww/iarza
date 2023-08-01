@@ -33,7 +33,7 @@ const features = [
     },
 ]
 
-function Subvenciones() {
+function Asesoria() {
     return (
         <MainLayout>
             <Breadcrumb texto={"Asesoría"} descripcion={"Aunamos experiencia y conocimientos para ayudarle a cumplir con sus obligaciones fiscales y laborales."} />
@@ -67,4 +67,4 @@ function Subvenciones() {
     )
 }
 
-export default Subvenciones
+export default Asesoria

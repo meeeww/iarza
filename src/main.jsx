@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import Inicio from './pages/Inicio.jsx'
 import Subvenciones from './pages/Subvenciones.jsx';
 import Asesoria from './pages/Asesoria.jsx'
+import Proyectos from './pages/Proyectos.jsx'
 import Contacto from './pages/Contacto.jsx';
 
 import NotFound from './pages/NotFound.jsx';
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/asesoria",
     element: <Asesoria />,
+  },
+  {
+    path: "/proyectos",
+    element: <Proyectos />,
   },
   {
     path: "/contacto",
