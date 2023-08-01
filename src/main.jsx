@@ -5,6 +5,7 @@ import Inicio from './pages/Inicio.jsx'
 import Subvenciones from './pages/Subvenciones.jsx';
 import Asesoria from './pages/Asesoria.jsx'
 import Proyectos from './pages/Proyectos.jsx'
+import OtrosServicios from './pages/OtrosServicios.jsx'
 import Contacto from './pages/Contacto.jsx';
 
 import NotFound from './pages/NotFound.jsx';
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/proyectos",
     element: <Proyectos />,
+  },
+  {
+    path: "/otrosservicios",
+    element: <OtrosServicios />,
   },
   {
     path: "/contacto",
