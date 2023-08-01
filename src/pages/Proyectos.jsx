@@ -3,12 +3,6 @@ import Breadcrumb from '../componentes/Breadcrumb'
 
 import Visitanos from "../componentes/Visitanos";
 
-import {
-    DocumentTextIcon,
-    CubeTransparentIcon,
-    BriefcaseIcon
-} from '@heroicons/react/20/solid'
-
 import Cow from "@react-icons/all-files/gi/GiCow"
 import Pig from "@react-icons/all-files/gi/GiPig"
 import Bird from "@react-icons/all-files/gi/GiSeagull"
