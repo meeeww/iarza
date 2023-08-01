@@ -58,7 +58,7 @@ function Contacto() {
                     ))
                   }
                 </ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6024177678537!2d-7.552206287870309!3d43.0077056938189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31ce8c09ec3391%3A0x8c15da6c6ce4749d!2sIngenier%C3%ADa%20Arza%20S.L.!5e0!3m2!1ses!2ses!4v1690831545740!5m2!1ses!2ses" width="510" height="300" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="my-8"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6024177678537!2d-7.552206287870309!3d43.0077056938189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31ce8c09ec3391%3A0x8c15da6c6ce4749d!2sIngenier%C3%ADa%20Arza%20S.L.!5e0!3m2!1ses!2ses!4v1690831545740!5m2!1ses!2ses" width="510" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="my-8"></iframe>
               </div>
             </div>
             <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">

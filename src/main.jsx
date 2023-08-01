@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import Inicio from './pages/Inicio.jsx'
+import Subvenciones from './pages/Subvenciones.jsx';
 import Contacto from './pages/Contacto.jsx';
 
 import NotFound from './pages/NotFound.jsx';
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Inicio />,
+  },
+  {
+    path: "/subvenciones",
+    element: <Subvenciones />,
   },
   {
     path: "/contacto",
