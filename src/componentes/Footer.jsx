@@ -35,6 +35,23 @@ function Footer() {
                 },
             ]
         },
+        {
+            label: "Legal",
+            items: [
+                {
+                    href: '/avisolegal',
+                    name: 'Aviso Legal'
+                },
+                {
+                    href: '/politicaprivacidad',
+                    name: 'Política de Privacidad'
+                },
+                {
+                    href: '/politicacookies',
+                    name: 'Política de Cookies'
+                },
+            ]
+        },
 
     ]
 
