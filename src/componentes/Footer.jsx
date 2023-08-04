@@ -3,6 +3,7 @@ function Footer() {
     const footerNavs = [
         {
             label: "Empresa",
+            icon: "building",
             items: [
                 {
                     href: '/',
@@ -20,6 +21,7 @@ function Footer() {
         },
         {
             label: "Servicios",
+            icon: "gears",
             items: [
                 {
                     href: '/subvenciones',
@@ -37,6 +39,7 @@ function Footer() {
         },
         {
             label: "Legal",
+            icon: "scale-balanced",
             items: [
                 {
                     href: '/avisolegal',
@@ -66,6 +69,7 @@ function Footer() {
                                 key={idx}
                             >
                                 <h4 className="text-[color:var(--colorBlanco)] font-semibold text-lg sm:pb-2">
+                                    <i className={"fa-solid fa-" + item.icon + " pr-2"}></i>
                                     {item.label}
                                 </h4>
                                 {
@@ -87,7 +91,12 @@ function Footer() {
                 </div>
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
                     <div className="flex flex-col mx-20 justify-center text-[color:var(--colorBlanco)] text-center sm:text-left">
-                        <p>©2023 Ingeniería Arza S.L.</p>
+                        <div className="flex flex-row">
+                            <p className="flex">©2023
+                                <a className="ml-2" style={{color: "var(--colorPrincipal)"}} href="/">Ingeniería Arza S.L.
+                                </a>
+                            </p>
+                        </div>
                         <p>Todos los derechos reservados.</p>
                     </div>
                     <div className="flex mx-20 items-center gap-x-6 text-[color:var(--colorBlanco)] mt-6 text-center sm:justify-center justify-evenly">
