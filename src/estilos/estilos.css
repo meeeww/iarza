@@ -11,7 +11,7 @@
 }
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -71,4 +71,18 @@ body {
     color: var(--colorPrincipal);
     background: none;
     transition: all 0.25s;
+}
+
+.fondoSIGE {
+    background-image: url('../../public/SIGE-Logo-Porcino.png');
+    background-position-y: 10%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.fondoBreadcrumb{
+    background-image: linear-gradient(rgba(200, 200, 200, 0.55), rgba(255, 255, 255, 0.1)), url('../../public/prueba.jpg');
+    background-position-y: center;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
 }

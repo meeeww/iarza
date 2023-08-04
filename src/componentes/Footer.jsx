@@ -92,8 +92,8 @@ function Footer() {
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
                     <div className="flex flex-col mx-20 justify-center text-[color:var(--colorBlanco)] text-center sm:text-left">
                         <div className="flex flex-row">
-                            <p className="flex">©2023
-                                <a className="ml-2" style={{color: "var(--colorPrincipal)"}} href="/">Ingeniería Arza S.L.
+                            <p className="flex">{"©" + new Date().getFullYear()}
+                                <a className="ml-2" style={{ color: "var(--colorPrincipal)" }} href="/">Ingeniería Arza S.L.
                                 </a>
                             </p>
                         </div>
