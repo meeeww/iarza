@@ -64,7 +64,7 @@ function Footer() {
                 <div className="flex-1 mx-20 space-y-6 justify-around sm:flex md:space-y-0 text-center sm:text-left">
                     {
                         footerNavs.map((item, idx) => (
-                            <ul
+                            <div
                                 className="space-y-4 text-[color:var(--colorBlanco)]"
                                 key={idx}
                             >
@@ -78,14 +78,14 @@ function Footer() {
                                             <a
                                                 href={el.href}
                                                 className="hover:text-[color:var(--colorPrincipal)] duration-150"
-
+                                                aria-label={el.name}
                                             >
                                                 {el.name}
                                             </a>
                                         </li>
                                     )))
                                 }
-                            </ul>
+                            </div>
                         ))
                     }
                 </div>

@@ -7,7 +7,7 @@ function Visitanos() {
             <div className="lg:w-[60rem] w-[23rem] sm:w-[30rem] lg:block flex flex-col justify-center">
               <p className="mt-2 text-3xl font-bold tracking-tight text-[color:var(--colorGris)] sm:text-4xl">Visítanos En Nuestra Oficina</p>
               <div className='flex sm:flex-col flex-col items-center my-8'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6024177678537!2d-7.552206287870309!3d43.0077056938189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31ce8c09ec3391%3A0x8c15da6c6ce4749d!2sIngenier%C3%ADa%20Arza%20S.L.!5e0!3m2!1ses!2ses!4v1690831545740!5m2!1ses!2ses" width="960" height="300" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Oficinas Ingeniería Arza." src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6024177678537!2d-7.552206287870309!3d43.0077056938189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31ce8c09ec3391%3A0x8c15da6c6ce4749d!2sIngenier%C3%ADa%20Arza%20S.L.!5e0!3m2!1ses!2ses!4v1690831545740!5m2!1ses!2ses" width="960" height="300" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 <div>
                   <p className="mt-6 text-lg leading-8 text-[color:var(--colorGris)]">
                     Si tienes algún proyecto en mente o quieres realizarnos cualquier consulta, no dudes en ponerte en contacto con nosotros.

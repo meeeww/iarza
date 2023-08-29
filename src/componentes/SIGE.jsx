@@ -15,7 +15,7 @@ function Breadcrumb() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#salto"
-                className="rounded-md bg-[color:var(--colorPrincipal)] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:scale-105 transiciones focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-[color:var(--colorPrincipal)] px-3.5 py-2.5 text-sm font-semibold text-[#262626] shadow-sm hover:scale-105 transiciones focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Saber Más
               </a>
