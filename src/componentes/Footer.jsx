@@ -74,7 +74,7 @@ function Footer() {
                                 </h4>
                                 {
                                     item.items.map(((el, idx) => (
-                                        <li key={idx}>
+                                        <div key={idx}>
                                             <a
                                                 href={el.href}
                                                 className="hover:text-[color:var(--colorPrincipal)] duration-150"
@@ -82,7 +82,7 @@ function Footer() {
                                             >
                                                 {el.name}
                                             </a>
-                                        </li>
+                                        </div>
                                     )))
                                 }
                             </div>
